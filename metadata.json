@@ -1,7 +1,7 @@
 {
     "missions":[
         {"id": "demo-backend", "name":"Cloud Native Development - Demo Backend : JPA Persistence"},
-        {"id": "demo-front", "name":"Cloud Native Development - Demo Frontend"},
+        {"id": "demo-frontend", "name":"Cloud Native Development - Demo Frontend"},
         {"id": "configmap", "name":"Externalized Configuration"},
         {"id": "crud", "name":"CRUD"},
         {"id": "health-check", "name":"Health Check"},
