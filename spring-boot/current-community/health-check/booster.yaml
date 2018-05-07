@@ -1,0 +1,10 @@
+name: Spring Boot - Health Check Example
+description: Booster to demonstrate OpenShift health probes working with Spring Boot Actuator.
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-health-check-booster
+    ref: 1.5.12-3
+metadata:
+  runsOn:
+    - '!osio'
+  worksWithLegacyOsio: true

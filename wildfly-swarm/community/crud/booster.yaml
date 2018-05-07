@@ -1,0 +1,19 @@
+metadata:
+  runsOn: 
+    - '!starter'
+    - '!osio'
+name: HTTP CRUD - Wildfly Swarm
+description: A simple CRUD applicaiton using Wildfly Swarm
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: '10'
+  production:
+    source:
+      git:
+        ref: '10'

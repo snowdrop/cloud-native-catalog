@@ -1,0 +1,18 @@
+metadata:
+  runsOn: 
+    - '!osio'
+name: WildFly Swarm - HTTP
+description: Runs a WildFly Swarm HTTP application
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-redhat
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.1-redhat-1
+  production:
+    source:
+      git:
+        ref: 7.0.1-redhat-1

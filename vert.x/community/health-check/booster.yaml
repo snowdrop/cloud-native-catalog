@@ -1,0 +1,22 @@
+name: Vert.x Health Check Example
+description: Demonstrate health check and recovery mechanism
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-health-checks-booster
+    ref: master
+metadata:
+  runsOn:
+    - '!osio'
+  worksWithLegacyOsio: true
+environment:
+  staging:
+    source:
+      git:
+        ref: v20
+  production:
+    source:
+      git:
+        ref: v20
+    metadata:
+      version:
+        name: 3.5.0.Final (Community)
